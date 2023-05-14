@@ -23,7 +23,6 @@ const MessageInput: FC<MessageInputProps> = ({
   return (
     <div className="relative w-full">
       <input
-        type="text"
         id={id}
         type={type}
         autoComplete={id}
